@@ -1,0 +1,16 @@
+title = "Movies Page"
+url = "/movies"
+layout = "master"
+description = "Movies Page"
+is_hidden = 0
+
+[builderList]
+modelClass = "JanoBokuchava\Movies\Models\Movie"
+scope = "-"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

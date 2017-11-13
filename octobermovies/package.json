@@ -1,0 +1,27 @@
+{
+  "name": "octobermovies",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">     <img src=\"https://github.com/octobercms/october/blob/master/themes/demo/assets/images/october.png?raw=true\" alt=\"October\" width=\"25%\" height=\"25%\" /> </p>",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JBoku8/OctoberCMS-Projects.git"
+  },
+  "author": "Jano Bokuchava",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBoku8/OctoberCMS-Projects/issues"
+  },
+  "homepage": "https://github.com/JBoku8/OctoberCMS-Projects#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-16",
+    "laravel-elixir-livereload": "^1.1.6"
+  }
+}

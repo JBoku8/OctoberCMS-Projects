@@ -1,0 +1,10 @@
+name: Movies
+form: $/janobokuchava/movies/models/movie/fields.yaml
+modelClass: JanoBokuchava\Movies\Models\Movie
+defaultRedirect: janobokuchava/movies/movies
+create:
+    redirect: 'janobokuchava/movies/movies/update/:id'
+    redirectClose: janobokuchava/movies/movies
+update:
+    redirect: janobokuchava/movies/movies
+    redirectClose: janobokuchava/movies/movies

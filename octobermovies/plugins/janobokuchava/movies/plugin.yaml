@@ -1,0 +1,11 @@
+plugin:
+    name: 'janobokuchava.movies::lang.plugin.name'
+    description: 'janobokuchava.movies::lang.plugin.description'
+    author: 'Jano Bokuchava'
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: janobokuchava/movies/movies
+        icon: icon-video-camera
